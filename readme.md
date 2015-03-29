@@ -4,10 +4,10 @@
 ## Introduction ##
 
 This RBFN attempts to approximate the following function:<p>
-![func no noise](./res_for_readme/func_no_noise.jpg)<p>
+![func no noise](./res_for_readme/func_no_noise.JPG)<p>
 
 The training set is constructed by dividing the range [-1,1] with steps of 0.05.  The test set is constructed by dividing the range [-1,1] with steps of 0.01.  The training set is corrupted by random noise as follows.
-![func noisy](./res_for_readme/func_noise.jpg) <p>
+![func noisy](./res_for_readme/func_noise.JPG) <p>
 
 The random noise n(i) is Gaussion with 0 mean and standard deviation of 1.
 
@@ -20,15 +20,15 @@ The random noise n(i) is Gaussion with 0 mean and standard deviation of 1.
 
 - **RBFN\_exact\_interpolation\_method\_with\_regularization.m** trains and tests an RBFN constructed using the Exact Interpolation method with regularization factor 0.5. The Radial Basis Function (RBF) is gaussian with standard deviation of 0.1.
 
-![eimwr results](./res_for_readme/exact_interpolation_method_w_regularization_results.jpg)
+![eimwr results](./res_for_readme/exact_interpolation_w_reg_results.jpg)
 
 - **RBFN\_Fixed\_Centers\_Selected\_at\_Random.m** trains and tests an RBFN constructed using the Fixed Centers Selected at Random method. The number of centers is set to be 15.  15 centroids from K-means clustering (K:=15) of training data are used as centers.  The Radial Basis Function (RBF) is:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![fcsr rbf](./res_for_readme/gaussian_fixed_centers.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![fcsr rbf](./res_for_readme/gaussian_fixed_centers.JPG)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where mu\_i is the i-th fixed center and sigma\_i is:
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![d_max](./res_for_readme/d_max.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![d_max](./res_for_readme/d_max.JPG)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where d_max is the maximum distance between the chosen centers.
 
