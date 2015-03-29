@@ -14,7 +14,7 @@ The random noise n(i) is Gaussion with 0 mean and standard deviation of 1.
 ## Contents ##
 
 - **RBFN\_exact\_interpolation\_method.m** trains and tests an RBFN constructed using the Exact Interpolation method. The Radial Basis Function (RBF) is gaussian with standard deviation of 0.1 :
-![gaussian rbf](./res_for_readme/gaussian_rbf.jpg) where sigma = 0.1.  The resulting plot with test results in red and desired results in blue:
+![gaussian rbf](./res_for_readme/gaussian_rbf.JPG) where sigma = 0.1.  The resulting plot with test results in red and desired results in blue:
 
 ![eim results](./res_for_readme/exact_interpolation_method_results.jpg)
 
